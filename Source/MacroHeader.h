@@ -13,9 +13,6 @@
 /*
  宏定义
  */
-
-
-
 #define TBLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 
 #define WEAKSELF typeof(self) __weak weakSelf = self;

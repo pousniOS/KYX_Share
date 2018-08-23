@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Dialog.h"
 @interface NSObject (YYObject)
 /**
  NSStirng|NSDictionary|NSArray|自己定义的类|
