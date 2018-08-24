@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5C50007F212EBEB700B91C40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50007E212EBEB700B91C40 /* main.m */; };
+		5C73F8DB212F9880008F2DAE /* YYHttpClientInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8AB212F9880008F2DAE /* YYHttpClientInfoModel.m */; };
+		5C73F8DC212F9880008F2DAE /* AFHTTPSessionManager+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8AE212F9880008F2DAE /* AFHTTPSessionManager+Add.m */; };
+		5C73F8DD212F9880008F2DAE /* YYShareHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8B0212F9880008F2DAE /* YYShareHttpRequest.m */; };
+		5C73F8DE212F9880008F2DAE /* YYHTTPHeaderFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8B1212F9880008F2DAE /* YYHTTPHeaderFieldModel.m */; };
+		5C73F8DF212F9880008F2DAE /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8B7212F9880008F2DAE /* GTMBase64.m */; };
+		5C73F8E0212F9880008F2DAE /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8B9212F9880008F2DAE /* NSString+Hashing.m */; };
+		5C73F8E1212F9880008F2DAE /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8BC212F9880008F2DAE /* NSData+AES256.m */; };
+		5C73F8E2212F9880008F2DAE /* NSData +Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8C0212F9880008F2DAE /* NSData +Encryption.m */; };
+		5C73F8E3212F9880008F2DAE /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8C1212F9880008F2DAE /* NSString+AES256.m */; };
+		5C73F8E4212F9880008F2DAE /* UIButton+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8C5212F9880008F2DAE /* UIButton+Add.m */; };
+		5C73F8E5212F9880008F2DAE /* UIResponder+PSResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8C7212F9880008F2DAE /* UIResponder+PSResponder.m */; };
+		5C73F8E6212F9880008F2DAE /* ResponderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8C8212F9880008F2DAE /* ResponderEvent.m */; };
+		5C73F8E7212F9880008F2DAE /* NSString+IMNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8CA212F9880008F2DAE /* NSString+IMNSString.m */; };
+		5C73F8E8212F9880008F2DAE /* NSObject+YYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8CB212F9880008F2DAE /* NSObject+YYObject.m */; };
+		5C73F8E9212F9880008F2DAE /* NSDictionary+YYDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8CD212F9880008F2DAE /* NSDictionary+YYDictionary.m */; };
+		5C73F8EA212F9880008F2DAE /* UIImage+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8CE212F9880008F2DAE /* UIImage+Add.m */; };
+		5C73F8EB212F9880008F2DAE /* UIViewController+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8CF212F9880008F2DAE /* UIViewController+Add.m */; };
+		5C73F8EC212F9880008F2DAE /* NSString+StringExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8D0212F9880008F2DAE /* NSString+StringExt.m */; };
+		5C73F8ED212F9880008F2DAE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8D7212F9880008F2DAE /* MBProgressHUD.m */; };
+		5C73F8EE212F9880008F2DAE /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73F8DA212F9880008F2DAE /* Dialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,72 +45,51 @@
 /* Begin PBXFileReference section */
 		5C50007B212EBEB700B91C40 /* KYX_Share */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KYX_Share; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C50007E212EBEB700B91C40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C500088212EBED200B91C40 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		5C500089212EBED200B91C40 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		5C50008C212EBED200B91C40 /* YYDownH5Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDownH5Model.m; sourceTree = "<group>"; };
-		5C50008D212EBED200B91C40 /* AlipaySubItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlipaySubItem.h; sourceTree = "<group>"; };
-		5C50008E212EBED200B91C40 /* AliPayViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPayViews.m; sourceTree = "<group>"; };
-		5C50008F212EBED200B91C40 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		5C500090212EBED200B91C40 /* KeychainData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainData.m; sourceTree = "<group>"; };
-		5C500091212EBED200B91C40 /* SetpasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetpasswordViewController.h; sourceTree = "<group>"; };
-		5C500092212EBED200B91C40 /* AliPayItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPayItem.m; sourceTree = "<group>"; };
-		5C500093212EBED200B91C40 /* AlipaySubItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipaySubItem.m; sourceTree = "<group>"; };
-		5C500094212EBED200B91C40 /* YYDownH5Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDownH5Model.h; sourceTree = "<group>"; };
-		5C500095212EBED200B91C40 /* KeychainData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainData.h; sourceTree = "<group>"; };
-		5C500096212EBED200B91C40 /* AliPayViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliPayViews.h; sourceTree = "<group>"; };
-		5C500097212EBED200B91C40 /* SetpasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetpasswordViewController.m; sourceTree = "<group>"; };
-		5C500098212EBED200B91C40 /* AliPayItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliPayItem.h; sourceTree = "<group>"; };
-		5C50009A212EBED200B91C40 /* NSString+IMNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMNSString.m"; sourceTree = "<group>"; };
-		5C50009B212EBED200B91C40 /* NSObject+YYObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYObject.m"; sourceTree = "<group>"; };
-		5C50009C212EBED200B91C40 /* NSString+StringExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExt.h"; sourceTree = "<group>"; };
-		5C50009D212EBED200B91C40 /* NSDictionary+YYDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YYDictionary.m"; sourceTree = "<group>"; };
-		5C50009E212EBED200B91C40 /* UIImage+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Add.m"; sourceTree = "<group>"; };
-		5C50009F212EBED200B91C40 /* UIViewController+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Add.m"; sourceTree = "<group>"; };
-		5C5000A0212EBED200B91C40 /* NSString+StringExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExt.m"; sourceTree = "<group>"; };
-		5C5000A1212EBED200B91C40 /* NSDictionary+YYDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YYDictionary.h"; sourceTree = "<group>"; };
-		5C5000A2212EBED200B91C40 /* NSObject+YYObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYObject.h"; sourceTree = "<group>"; };
-		5C5000A3212EBED200B91C40 /* NSString+IMNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+IMNSString.h"; sourceTree = "<group>"; };
-		5C5000A4212EBED200B91C40 /* UIViewController+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Add.h"; sourceTree = "<group>"; };
-		5C5000A5212EBED200B91C40 /* UIImage+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Add.h"; sourceTree = "<group>"; };
-		5C5000A8212EBED200B91C40 /* GTMBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		5C5000A9212EBED200B91C40 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		5C5000AA212EBED200B91C40 /* GTMBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		5C5000AC212EBED200B91C40 /* NSString+Hashing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
-		5C5000AD212EBED200B91C40 /* NSString+Hashing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
-		5C5000AF212EBED200B91C40 /* NSData+AES256.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
-		5C5000B0212EBED200B91C40 /* NSData +Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData +Encryption.h"; sourceTree = "<group>"; };
-		5C5000B1212EBED200B91C40 /* NSString+AES256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
-		5C5000B2212EBED200B91C40 /* NSData+AES256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
-		5C5000B3212EBED200B91C40 /* NSData +Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData +Encryption.m"; sourceTree = "<group>"; };
-		5C5000B4212EBED200B91C40 /* NSString+AES256.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
-		5C5000B6212EBED200B91C40 /* JKDBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
-		5C5000B7212EBED200B91C40 /* JKDBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
-		5C5000B8212EBED200B91C40 /* PSDBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSDBHelper.h; sourceTree = "<group>"; };
-		5C5000B9212EBED200B91C40 /* PSDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSDBModel.h; sourceTree = "<group>"; };
-		5C5000BA212EBED200B91C40 /* JKDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
-		5C5000BB212EBED200B91C40 /* PSDBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSDBModel.m; sourceTree = "<group>"; };
-		5C5000BC212EBED200B91C40 /* PSDBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSDBHelper.m; sourceTree = "<group>"; };
-		5C5000BD212EBED200B91C40 /* JKDBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDBHelper.h; sourceTree = "<group>"; };
-		5C5000BF212EBED200B91C40 /* YYHttpClientInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHttpClientInfoModel.m; sourceTree = "<group>"; };
-		5C5000C0212EBED200B91C40 /* YYHTTPHeaderFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHTTPHeaderFieldModel.h; sourceTree = "<group>"; };
-		5C5000C1212EBED200B91C40 /* YYShareHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYShareHttpRequest.h; sourceTree = "<group>"; };
-		5C5000C2212EBED200B91C40 /* AFHTTPSessionManager+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Add.m"; sourceTree = "<group>"; };
-		5C5000C3212EBED200B91C40 /* AFHTTPSessionManager+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Add.h"; sourceTree = "<group>"; };
-		5C5000C4212EBED200B91C40 /* YYShareHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYShareHttpRequest.m; sourceTree = "<group>"; };
-		5C5000C5212EBED200B91C40 /* YYHTTPHeaderFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHTTPHeaderFieldModel.m; sourceTree = "<group>"; };
-		5C5000C6212EBED200B91C40 /* YYHttpClientInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHttpClientInfoModel.h; sourceTree = "<group>"; };
-		5C5000C8212EBED200B91C40 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		5C5000C9212EBED200B91C40 /* Dialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
-		5C5000CA212EBED200B91C40 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		5C5000CB212EBED200B91C40 /* Dialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
-		5C5000CD212EBED200B91C40 /* ResponderEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderEvent.h; sourceTree = "<group>"; };
-		5C5000CE212EBED200B91C40 /* UIResponder+PSResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PSResponder.h"; sourceTree = "<group>"; };
-		5C5000CF212EBED200B91C40 /* UIButton+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Add.m"; sourceTree = "<group>"; };
-		5C5000D0212EBED200B91C40 /* UIButton+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Add.h"; sourceTree = "<group>"; };
-		5C5000D1212EBED200B91C40 /* UIResponder+PSResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PSResponder.m"; sourceTree = "<group>"; };
-		5C5000D2212EBED200B91C40 /* ResponderEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderEvent.m; sourceTree = "<group>"; };
 		5C5000D3212EBED200B91C40 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5C5000D4212EBED200B91C40 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		5C5000D5212EBF7F00B91C40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C5000D6212EBF8500B91C40 /* KYX_Share.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KYX_Share.podspec; sourceTree = "<group>"; };
+		5C73F8AB212F9880008F2DAE /* YYHttpClientInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHttpClientInfoModel.m; sourceTree = "<group>"; };
+		5C73F8AC212F9880008F2DAE /* YYHTTPHeaderFieldModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHTTPHeaderFieldModel.h; sourceTree = "<group>"; };
+		5C73F8AD212F9880008F2DAE /* YYShareHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShareHttpRequest.h; sourceTree = "<group>"; };
+		5C73F8AE212F9880008F2DAE /* AFHTTPSessionManager+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Add.m"; sourceTree = "<group>"; };
+		5C73F8AF212F9880008F2DAE /* AFHTTPSessionManager+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Add.h"; sourceTree = "<group>"; };
+		5C73F8B0212F9880008F2DAE /* YYShareHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShareHttpRequest.m; sourceTree = "<group>"; };
+		5C73F8B1212F9880008F2DAE /* YYHTTPHeaderFieldModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHTTPHeaderFieldModel.m; sourceTree = "<group>"; };
+		5C73F8B2212F9880008F2DAE /* YYHttpClientInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHttpClientInfoModel.h; sourceTree = "<group>"; };
+		5C73F8B5212F9880008F2DAE /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		5C73F8B6212F9880008F2DAE /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		5C73F8B7212F9880008F2DAE /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		5C73F8B9212F9880008F2DAE /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		5C73F8BA212F9880008F2DAE /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		5C73F8BC212F9880008F2DAE /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		5C73F8BD212F9880008F2DAE /* NSData +Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData +Encryption.h"; sourceTree = "<group>"; };
+		5C73F8BE212F9880008F2DAE /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		5C73F8BF212F9880008F2DAE /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		5C73F8C0212F9880008F2DAE /* NSData +Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData +Encryption.m"; sourceTree = "<group>"; };
+		5C73F8C1212F9880008F2DAE /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		5C73F8C3212F9880008F2DAE /* ResponderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponderEvent.h; sourceTree = "<group>"; };
+		5C73F8C4212F9880008F2DAE /* UIResponder+PSResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PSResponder.h"; sourceTree = "<group>"; };
+		5C73F8C5212F9880008F2DAE /* UIButton+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Add.m"; sourceTree = "<group>"; };
+		5C73F8C6212F9880008F2DAE /* UIButton+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Add.h"; sourceTree = "<group>"; };
+		5C73F8C7212F9880008F2DAE /* UIResponder+PSResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PSResponder.m"; sourceTree = "<group>"; };
+		5C73F8C8212F9880008F2DAE /* ResponderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponderEvent.m; sourceTree = "<group>"; };
+		5C73F8CA212F9880008F2DAE /* NSString+IMNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMNSString.m"; sourceTree = "<group>"; };
+		5C73F8CB212F9880008F2DAE /* NSObject+YYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYObject.m"; sourceTree = "<group>"; };
+		5C73F8CC212F9880008F2DAE /* NSString+StringExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExt.h"; sourceTree = "<group>"; };
+		5C73F8CD212F9880008F2DAE /* NSDictionary+YYDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YYDictionary.m"; sourceTree = "<group>"; };
+		5C73F8CE212F9880008F2DAE /* UIImage+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Add.m"; sourceTree = "<group>"; };
+		5C73F8CF212F9880008F2DAE /* UIViewController+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Add.m"; sourceTree = "<group>"; };
+		5C73F8D0212F9880008F2DAE /* NSString+StringExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExt.m"; sourceTree = "<group>"; };
+		5C73F8D1212F9880008F2DAE /* NSDictionary+YYDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YYDictionary.h"; sourceTree = "<group>"; };
+		5C73F8D2212F9880008F2DAE /* NSObject+YYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYObject.h"; sourceTree = "<group>"; };
+		5C73F8D3212F9880008F2DAE /* NSString+IMNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMNSString.h"; sourceTree = "<group>"; };
+		5C73F8D4212F9880008F2DAE /* UIViewController+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Add.h"; sourceTree = "<group>"; };
+		5C73F8D5212F9880008F2DAE /* UIImage+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Add.h"; sourceTree = "<group>"; };
+		5C73F8D7212F9880008F2DAE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5C73F8D8212F9880008F2DAE /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
+		5C73F8D9212F9880008F2DAE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5C73F8DA212F9880008F2DAE /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +106,8 @@
 		5C500072212EBEB700B91C40 = {
 			isa = PBXGroup;
 			children = (
+				5C5000D6212EBF8500B91C40 /* KYX_Share.podspec */,
+				5C5000D5212EBF7F00B91C40 /* README.md */,
 				5C500085212EBED200B91C40 /* Source */,
 				5C50007D212EBEB700B91C40 /* KYX_Share */,
 				5C50007C212EBEB700B91C40 /* Products */,
@@ -132,178 +133,115 @@
 		5C500085212EBED200B91C40 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5C500086212EBED200B91C40 /* MRC */,
-				5C50008A212EBED200B91C40 /* ARC */,
+				5C73F8B3212F9880008F2DAE /* 加密库 */,
+				5C73F8C9212F9880008F2DAE /* Category */,
+				5C73F8C2212F9880008F2DAE /* Responder */,
+				5C73F8D6212F9880008F2DAE /* View */,
+				5C73F8AA212F9880008F2DAE /* YYHttpRequest */,
 				5C5000D3212EBED200B91C40 /* PrefixHeader.pch */,
 				5C5000D4212EBED200B91C40 /* MacroHeader.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		5C500086212EBED200B91C40 /* MRC */ = {
+		5C73F8AA212F9880008F2DAE /* YYHttpRequest */ = {
 			isa = PBXGroup;
 			children = (
-				5C500087212EBED200B91C40 /* MRC */,
-			);
-			path = MRC;
-			sourceTree = "<group>";
-		};
-		5C500087212EBED200B91C40 /* MRC */ = {
-			isa = PBXGroup;
-			children = (
-				5C500088212EBED200B91C40 /* KeychainItemWrapper.m */,
-				5C500089212EBED200B91C40 /* KeychainItemWrapper.h */,
-			);
-			path = MRC;
-			sourceTree = "<group>";
-		};
-		5C50008A212EBED200B91C40 /* ARC */ = {
-			isa = PBXGroup;
-			children = (
-				5C50008B212EBED200B91C40 /* 手势解锁 */,
-				5C500099212EBED200B91C40 /* Category */,
-				5C5000A6212EBED200B91C40 /* 加密库 */,
-				5C5000B5212EBED200B91C40 /* DBModel */,
-				5C5000BE212EBED200B91C40 /* YYHttpRequest */,
-				5C5000C7212EBED200B91C40 /* View */,
-				5C5000CC212EBED200B91C40 /* Responder */,
-			);
-			path = ARC;
-			sourceTree = "<group>";
-		};
-		5C50008B212EBED200B91C40 /* 手势解锁 */ = {
-			isa = PBXGroup;
-			children = (
-				5C50008C212EBED200B91C40 /* YYDownH5Model.m */,
-				5C50008D212EBED200B91C40 /* AlipaySubItem.h */,
-				5C50008E212EBED200B91C40 /* AliPayViews.m */,
-				5C50008F212EBED200B91C40 /* Header.h */,
-				5C500090212EBED200B91C40 /* KeychainData.m */,
-				5C500091212EBED200B91C40 /* SetpasswordViewController.h */,
-				5C500092212EBED200B91C40 /* AliPayItem.m */,
-				5C500093212EBED200B91C40 /* AlipaySubItem.m */,
-				5C500094212EBED200B91C40 /* YYDownH5Model.h */,
-				5C500095212EBED200B91C40 /* KeychainData.h */,
-				5C500096212EBED200B91C40 /* AliPayViews.h */,
-				5C500097212EBED200B91C40 /* SetpasswordViewController.m */,
-				5C500098212EBED200B91C40 /* AliPayItem.h */,
-			);
-			path = "手势解锁";
-			sourceTree = "<group>";
-		};
-		5C500099212EBED200B91C40 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				5C50009A212EBED200B91C40 /* NSString+IMNSString.m */,
-				5C50009B212EBED200B91C40 /* NSObject+YYObject.m */,
-				5C50009C212EBED200B91C40 /* NSString+StringExt.h */,
-				5C50009D212EBED200B91C40 /* NSDictionary+YYDictionary.m */,
-				5C50009E212EBED200B91C40 /* UIImage+Add.m */,
-				5C50009F212EBED200B91C40 /* UIViewController+Add.m */,
-				5C5000A0212EBED200B91C40 /* NSString+StringExt.m */,
-				5C5000A1212EBED200B91C40 /* NSDictionary+YYDictionary.h */,
-				5C5000A2212EBED200B91C40 /* NSObject+YYObject.h */,
-				5C5000A3212EBED200B91C40 /* NSString+IMNSString.h */,
-				5C5000A4212EBED200B91C40 /* UIViewController+Add.h */,
-				5C5000A5212EBED200B91C40 /* UIImage+Add.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		5C5000A6212EBED200B91C40 /* 加密库 */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000A7212EBED200B91C40 /* GTMBase64 */,
-				5C5000AB212EBED200B91C40 /* md5 */,
-				5C5000AE212EBED200B91C40 /* AES256 */,
-			);
-			path = "加密库";
-			sourceTree = "<group>";
-		};
-		5C5000A7212EBED200B91C40 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000A8212EBED200B91C40 /* GTMBase64.h */,
-				5C5000A9212EBED200B91C40 /* GTMDefines.h */,
-				5C5000AA212EBED200B91C40 /* GTMBase64.m */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		5C5000AB212EBED200B91C40 /* md5 */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000AC212EBED200B91C40 /* NSString+Hashing.m */,
-				5C5000AD212EBED200B91C40 /* NSString+Hashing.h */,
-			);
-			path = md5;
-			sourceTree = "<group>";
-		};
-		5C5000AE212EBED200B91C40 /* AES256 */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000AF212EBED200B91C40 /* NSData+AES256.m */,
-				5C5000B0212EBED200B91C40 /* NSData +Encryption.h */,
-				5C5000B1212EBED200B91C40 /* NSString+AES256.h */,
-				5C5000B2212EBED200B91C40 /* NSData+AES256.h */,
-				5C5000B3212EBED200B91C40 /* NSData +Encryption.m */,
-				5C5000B4212EBED200B91C40 /* NSString+AES256.m */,
-			);
-			path = AES256;
-			sourceTree = "<group>";
-		};
-		5C5000B5212EBED200B91C40 /* DBModel */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000B6212EBED200B91C40 /* JKDBModel.m */,
-				5C5000B7212EBED200B91C40 /* JKDBHelper.m */,
-				5C5000B8212EBED200B91C40 /* PSDBHelper.h */,
-				5C5000B9212EBED200B91C40 /* PSDBModel.h */,
-				5C5000BA212EBED200B91C40 /* JKDBModel.h */,
-				5C5000BB212EBED200B91C40 /* PSDBModel.m */,
-				5C5000BC212EBED200B91C40 /* PSDBHelper.m */,
-				5C5000BD212EBED200B91C40 /* JKDBHelper.h */,
-			);
-			path = DBModel;
-			sourceTree = "<group>";
-		};
-		5C5000BE212EBED200B91C40 /* YYHttpRequest */ = {
-			isa = PBXGroup;
-			children = (
-				5C5000BF212EBED200B91C40 /* YYHttpClientInfoModel.m */,
-				5C5000C0212EBED200B91C40 /* YYHTTPHeaderFieldModel.h */,
-				5C5000C1212EBED200B91C40 /* YYShareHttpRequest.h */,
-				5C5000C2212EBED200B91C40 /* AFHTTPSessionManager+Add.m */,
-				5C5000C3212EBED200B91C40 /* AFHTTPSessionManager+Add.h */,
-				5C5000C4212EBED200B91C40 /* YYShareHttpRequest.m */,
-				5C5000C5212EBED200B91C40 /* YYHTTPHeaderFieldModel.m */,
-				5C5000C6212EBED200B91C40 /* YYHttpClientInfoModel.h */,
+				5C73F8AB212F9880008F2DAE /* YYHttpClientInfoModel.m */,
+				5C73F8AC212F9880008F2DAE /* YYHTTPHeaderFieldModel.h */,
+				5C73F8AD212F9880008F2DAE /* YYShareHttpRequest.h */,
+				5C73F8AE212F9880008F2DAE /* AFHTTPSessionManager+Add.m */,
+				5C73F8AF212F9880008F2DAE /* AFHTTPSessionManager+Add.h */,
+				5C73F8B0212F9880008F2DAE /* YYShareHttpRequest.m */,
+				5C73F8B1212F9880008F2DAE /* YYHTTPHeaderFieldModel.m */,
+				5C73F8B2212F9880008F2DAE /* YYHttpClientInfoModel.h */,
 			);
 			path = YYHttpRequest;
 			sourceTree = "<group>";
 		};
-		5C5000C7212EBED200B91C40 /* View */ = {
+		5C73F8B3212F9880008F2DAE /* 加密库 */ = {
 			isa = PBXGroup;
 			children = (
-				5C5000C8212EBED200B91C40 /* MBProgressHUD.m */,
-				5C5000C9212EBED200B91C40 /* Dialog.h */,
-				5C5000CA212EBED200B91C40 /* MBProgressHUD.h */,
-				5C5000CB212EBED200B91C40 /* Dialog.m */,
+				5C73F8B4212F9880008F2DAE /* GTMBase64 */,
+				5C73F8B8212F9880008F2DAE /* md5 */,
+				5C73F8BB212F9880008F2DAE /* AES256 */,
 			);
-			path = View;
+			path = "加密库";
 			sourceTree = "<group>";
 		};
-		5C5000CC212EBED200B91C40 /* Responder */ = {
+		5C73F8B4212F9880008F2DAE /* GTMBase64 */ = {
 			isa = PBXGroup;
 			children = (
-				5C5000CD212EBED200B91C40 /* ResponderEvent.h */,
-				5C5000CE212EBED200B91C40 /* UIResponder+PSResponder.h */,
-				5C5000CF212EBED200B91C40 /* UIButton+Add.m */,
-				5C5000D0212EBED200B91C40 /* UIButton+Add.h */,
-				5C5000D1212EBED200B91C40 /* UIResponder+PSResponder.m */,
-				5C5000D2212EBED200B91C40 /* ResponderEvent.m */,
+				5C73F8B5212F9880008F2DAE /* GTMBase64.h */,
+				5C73F8B6212F9880008F2DAE /* GTMDefines.h */,
+				5C73F8B7212F9880008F2DAE /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		5C73F8B8212F9880008F2DAE /* md5 */ = {
+			isa = PBXGroup;
+			children = (
+				5C73F8B9212F9880008F2DAE /* NSString+Hashing.m */,
+				5C73F8BA212F9880008F2DAE /* NSString+Hashing.h */,
+			);
+			path = md5;
+			sourceTree = "<group>";
+		};
+		5C73F8BB212F9880008F2DAE /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				5C73F8BC212F9880008F2DAE /* NSData+AES256.m */,
+				5C73F8BD212F9880008F2DAE /* NSData +Encryption.h */,
+				5C73F8BE212F9880008F2DAE /* NSString+AES256.h */,
+				5C73F8BF212F9880008F2DAE /* NSData+AES256.h */,
+				5C73F8C0212F9880008F2DAE /* NSData +Encryption.m */,
+				5C73F8C1212F9880008F2DAE /* NSString+AES256.m */,
+			);
+			path = AES256;
+			sourceTree = "<group>";
+		};
+		5C73F8C2212F9880008F2DAE /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				5C73F8C3212F9880008F2DAE /* ResponderEvent.h */,
+				5C73F8C4212F9880008F2DAE /* UIResponder+PSResponder.h */,
+				5C73F8C5212F9880008F2DAE /* UIButton+Add.m */,
+				5C73F8C6212F9880008F2DAE /* UIButton+Add.h */,
+				5C73F8C7212F9880008F2DAE /* UIResponder+PSResponder.m */,
+				5C73F8C8212F9880008F2DAE /* ResponderEvent.m */,
 			);
 			path = Responder;
+			sourceTree = "<group>";
+		};
+		5C73F8C9212F9880008F2DAE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5C73F8CA212F9880008F2DAE /* NSString+IMNSString.m */,
+				5C73F8CB212F9880008F2DAE /* NSObject+YYObject.m */,
+				5C73F8CC212F9880008F2DAE /* NSString+StringExt.h */,
+				5C73F8CD212F9880008F2DAE /* NSDictionary+YYDictionary.m */,
+				5C73F8CE212F9880008F2DAE /* UIImage+Add.m */,
+				5C73F8CF212F9880008F2DAE /* UIViewController+Add.m */,
+				5C73F8D0212F9880008F2DAE /* NSString+StringExt.m */,
+				5C73F8D1212F9880008F2DAE /* NSDictionary+YYDictionary.h */,
+				5C73F8D2212F9880008F2DAE /* NSObject+YYObject.h */,
+				5C73F8D3212F9880008F2DAE /* NSString+IMNSString.h */,
+				5C73F8D4212F9880008F2DAE /* UIViewController+Add.h */,
+				5C73F8D5212F9880008F2DAE /* UIImage+Add.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5C73F8D6212F9880008F2DAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C73F8D7212F9880008F2DAE /* MBProgressHUD.m */,
+				5C73F8D8212F9880008F2DAE /* Dialog.h */,
+				5C73F8D9212F9880008F2DAE /* MBProgressHUD.h */,
+				5C73F8DA212F9880008F2DAE /* Dialog.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C73F8E9212F9880008F2DAE /* NSDictionary+YYDictionary.m in Sources */,
+				5C73F8DB212F9880008F2DAE /* YYHttpClientInfoModel.m in Sources */,
+				5C73F8DF212F9880008F2DAE /* GTMBase64.m in Sources */,
+				5C73F8DD212F9880008F2DAE /* YYShareHttpRequest.m in Sources */,
 				5C50007F212EBEB700B91C40 /* main.m in Sources */,
+				5C73F8E5212F9880008F2DAE /* UIResponder+PSResponder.m in Sources */,
+				5C73F8E4212F9880008F2DAE /* UIButton+Add.m in Sources */,
+				5C73F8ED212F9880008F2DAE /* MBProgressHUD.m in Sources */,
+				5C73F8E8212F9880008F2DAE /* NSObject+YYObject.m in Sources */,
+				5C73F8E2212F9880008F2DAE /* NSData +Encryption.m in Sources */,
+				5C73F8E3212F9880008F2DAE /* NSString+AES256.m in Sources */,
+				5C73F8E0212F9880008F2DAE /* NSString+Hashing.m in Sources */,
+				5C73F8E7212F9880008F2DAE /* NSString+IMNSString.m in Sources */,
+				5C73F8DC212F9880008F2DAE /* AFHTTPSessionManager+Add.m in Sources */,
+				5C73F8E6212F9880008F2DAE /* ResponderEvent.m in Sources */,
+				5C73F8EC212F9880008F2DAE /* NSString+StringExt.m in Sources */,
+				5C73F8EB212F9880008F2DAE /* UIViewController+Add.m in Sources */,
+				5C73F8EA212F9880008F2DAE /* UIImage+Add.m in Sources */,
+				5C73F8E1212F9880008F2DAE /* NSData+AES256.m in Sources */,
+				5C73F8EE212F9880008F2DAE /* Dialog.m in Sources */,
+				5C73F8DE212F9880008F2DAE /* YYHTTPHeaderFieldModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

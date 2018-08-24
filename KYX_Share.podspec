@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KYX_Share"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of KYX_Share."
 
   # This description is used to generate tags and improve search results.
@@ -123,6 +123,8 @@ Pod::Spec.new do |s|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
+     s.frameworks = "Foundation","UIKit"
+     s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
 
      s.requires_arc = false
      s.requires_arc = ['Source/ARC/**/*.m']
